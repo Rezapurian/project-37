@@ -1,0 +1,150 @@
+@font-face {
+    font-family: vazir;
+    src: url(/font/Vazir-Regular.woff) format("woff");
+}
+*{
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  height: 550px;
+  padding: 0 20px;
+  margin: 80px auto;
+  background-color: #fff;
+}
+.left {
+    width:50%;
+    height: 550px;
+    position: absolute;
+    left: -1px;
+    background: #2563eb;
+}
+.left h4 {
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top:150px;
+    left: 35%;
+}
+.left p {
+    z-index: 1;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top:200px;
+    left: 15%;
+    text-align: center;
+}
+.left .link-login {
+    color: #fff;
+    background-color: #2563eb;
+    border-radius: 50px;
+    position: absolute;
+    top: 330px;
+    left: 60px;
+    font-size: 14px;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.link-login a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 6px;
+}
+.link-login a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    right: -1px;
+}
+.wrapper .title {
+    line-height: 50px;
+    border-radius: 5px 5px 0 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #1e1e1e;
+}
+.wrapper .title span:nth-child(1) {
+    color: #7517bd;
+    font-weight: 600;
+}
+.wrapper form {
+    padding: 30px 25px 25px 25px;
+    margin-top: -20px;
+}
+.wrapper form .row {
+    height: 55px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #efefef;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+form .row input:focus {
+   border: 2px solid #2563eb;
+}
+.wrapper form .button input {
+    padding-left: 0px;
+    background: #2563eb;
+    border: 1px solid #2563eb;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+form .button input:hover {
+    background: #2561e1;
+}
+.line {
+    position: relative;
+    height: 1px;
+    width: 80%;
+    margin: 36px 35px;
+    background-color: #d4d4d4;
+}
+.line::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #888888;
+    padding: 0 15px;
+}
+.signup-with {
+    margin-left: 87px;
+    margin-top: -10px;
+}
+.signup-with a {
+    margin: 5px;
+    padding: 8px 13px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    background: #2561e1;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
